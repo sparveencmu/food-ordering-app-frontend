@@ -1,0 +1,104 @@
+a {
+  text-decoration: none;
+  color: inherit !important;
+}
+
+.fbar-header,
+.fbar-search-container {
+  flex-grow: 1;
+}
+.headerSearchIcon {
+  color: white;
+}
+
+.login-form-control {
+  width: 80%;
+}
+
+.modal-l-input {
+  width: 100%;
+}
+
+#search-item {
+  width: 270px;
+}
+#search-item::-webkit-input-placeholder {
+  font-size: 0.99em;
+}
+
+.headerSearchIcon {
+  margin-right: 8px;
+}
+.logo-icon {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.loginBtn {
+  height: 41px;
+}
+
+.accountIcon {
+  width: 23px !important;
+  height: 23px !important;
+}
+
+.tabs {
+  margin-bottom: 20px;
+}
+
+.red {
+  color: red;
+}
+
+.dispNone {
+  display: none;
+}
+
+.dispBlock {
+  display: block;
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.mg-top-10 {
+  margin-top: 10px !important;
+}
+
+.login-profile-menu {
+  color: #d9d9d9 !important;
+  text-transform: capitalize !important;
+  font-size: 1.01em !important;
+}
+
+.profile-icon {
+  margin-right: 5px;
+}
+
+@media (max-width: 750px) {
+  .fbar-header > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .loginBtn {
+    margin-bottom: 15px !important;
+  }
+
+  .searchContainer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .logo-icon {
+    margin-top: 15px;
+  }
+
+  #search-item::-webkit-input-placeholder {
+    font-size: 1.1em;
+  }
+}
